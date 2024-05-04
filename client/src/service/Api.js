@@ -16,6 +16,6 @@ export const getUsers = async ()=>{
     }
     catch(error)
     {
-        console.log('Error while ccalling getUsers api',error.message);
+        console.log('Error while calling getUsers api',error.message);
     }
 }
